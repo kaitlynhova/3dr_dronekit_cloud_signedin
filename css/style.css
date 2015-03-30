@@ -196,13 +196,19 @@ ul{
   top: -10px;
 }
 
+#cred .api-header{
+  color: gray;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
 
 
-#cred .col-xs-3{
+#cred .col-md-3{
   padding: 0px;
 }
 
-#cred .col-xs-6{
+#cred .col-md-6{
   padding: 0px;
 }
 
