@@ -93,6 +93,8 @@ ul{
   font-weight: 100;
   line-height: 30px;
   padding: 0px;
+  position: relative;
+  top: 2px;
 }
 
 #bottomnav li {
