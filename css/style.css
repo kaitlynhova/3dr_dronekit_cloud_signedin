@@ -24,6 +24,8 @@ ul{
 .light-font{
   font-weight: 100;
   letter-spacing: 2px;
+  position: relative;
+  top: 2px;
 }
 
 /* NAVIGATION STYLES */
@@ -40,6 +42,9 @@ ul{
   background-color: #323232;
   border-color: 323232;
   border-radius: 0;
+  font-size: 15px;
+  font-weight: 200;
+  letter-spacing: 2px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -74,12 +79,20 @@ ul{
   word-spacing: 20px;
   position: relative;
   top: -20px;
+  font-size: 15px;
+}
+
+#bottomnav .fa{
+  font-size: 25px;
+  position:relative;
+  top: 3px;
 }
 
 #bottomnav .menu {
   float: right;
   font-weight: 100;
   line-height: 30px;
+  padding: 0px;
 }
 
 #bottomnav li {
