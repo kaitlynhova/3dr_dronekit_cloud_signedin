@@ -102,6 +102,11 @@ ul{
   font-size: 15px;
 }
 
+#bottomnav a:hover{
+  color: white;
+  opacity: .7;
+}
+
 #bottomnav .fa{
   font-size: 25px;
   position:relative;
