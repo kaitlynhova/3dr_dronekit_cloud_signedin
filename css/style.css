@@ -8,6 +8,14 @@
 .right{
   text-align: right;
 }
+
+p {
+  margin: 0 0 10px;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
 a {
   color: white;
   text-decoration: none !important;
@@ -124,6 +132,10 @@ ul{
   margin: 0 auto;
 }
 
+#hero-image .welcome {
+  text-align: left;
+}
+
 #hero-image h3{
   text-align: center;
   font-weight: 100;
@@ -132,7 +144,7 @@ ul{
   line-height: 65px;
 }
 
-#hero-image p {
+#hero-image p .button {
   text-align: center;
   background: #5ebf8c;
   width: 100%;
@@ -145,7 +157,7 @@ ul{
   letter-spacing: 1px;
 }
 
-#hero-image p:hover {
+#hero-image p .button:hover {
   text-align: center;
   background: white;
   color:#5ebf8c;
@@ -202,7 +214,6 @@ ul{
   letter-spacing: 2px;
   margin-bottom: 50px;
 }
-
 
 #cred .col-md-3{
   padding: 0px;
@@ -268,5 +279,12 @@ footer .copyrights {
     text-align: center;
     padding: 15px;
     color: white;
+  }
+  #cred .section{
+    margin-bottom: -20px;
+  }
+  #cred {
+    padding-top: 15px;
+    padding-bottom: 100px;
   }
 }
